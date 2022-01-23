@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(12, 12, 12);
+}
+// variables
+@import "./variables/colores";
+
+
+// particiones
+@import "./unidades/header";
+@import "./secciones/index";
+@import "./unidades/footer";
+@import "./secciones/locales";
+@import "./secciones/productos";
+@import "./secciones/quienes";
+@import "./secciones/contactos";
+
+
+
+// cssviejo
+@import "./variables/cssviejo.scss";
+
+

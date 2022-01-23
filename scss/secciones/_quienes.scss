@@ -1,0 +1,12 @@
+/*QUIENES*/
+/*main*/
+
+.quienes{
+    padding: 2rem;
+    &:hover {
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid yellow;
+    color: $color-primario;
+}
+}

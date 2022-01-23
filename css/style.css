@@ -1,0 +1,97 @@
+body {
+  background-color: #0c0c0c; }
+
+/* header */
+header .contactos {
+  color: yellow; }
+
+header h1 {
+  padding: 2rem; }
+  header h1:hover {
+    font-weight: 700;
+    background-color: black; }
+  header h1 a {
+    text-decoration: none;
+    color: #dfbf4d;
+    transform: translateX(45px); }
+
+/* main */
+main {
+  padding: 4rem; }
+  main .logo {
+    width: 800px; }
+  main p {
+    color: #dfbf4d;
+    padding: 4rem; }
+
+/* footer */
+footer a {
+  padding: 0.5rem;
+  text-decoration: none;
+  width: 150px;
+  color: #dfbf4d; }
+
+footer i {
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 140px;
+  color: #dfbf4d; }
+
+/*LOCALES*/
+/*main*/
+.lp {
+  height: 55vh; }
+
+.bsso {
+  height: 55vh; }
+
+/*QUIENES*/
+/*main*/
+.quienes {
+  padding: 2rem; }
+  .quienes:hover {
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid yellow;
+    color: #dfbf4d; }
+
+/* CONTACTOS */
+.comunica {
+  padding: 4rem; }
+  .comunica:hover {
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid #dfbf4d;
+    color: yellow; }
+
+.form {
+  text-align: center;
+  text-align: center;
+  font-size: 1.5rem; }
+  .form .form__label {
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 60%;
+    margin: 0.5rem;
+    padding: 1rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: sans-serif; }
+
+.form__label--submit {
+  background-color: #0c0c0c;
+  font-size: 1rem;
+  margin-top: 1.8rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+  cursor: pointer; }
+  .form__label--submit:hover {
+    background-color: #00385c; }
+
+.texto {
+  height: 10rem;
+  resize: none; }
+
+.form-control:focus {
+  outline: none; }
