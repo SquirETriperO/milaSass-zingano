@@ -1,0 +1,13 @@
+@mixin fontStyle ($color, $tamanio){
+    padding: 4rem;
+    color: $color;
+    font-size: $tamanio;
+    text-transform: uppercase;
+}
+
+@mixin hover {
+    font-weight: 700;
+    background-color: black;
+    border: 1px solid $color-primario;
+    color: $color-primario;    
+}

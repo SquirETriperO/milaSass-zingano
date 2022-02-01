@@ -1,0 +1,83 @@
+span {
+    color: $color-secundario;
+}
+
+@media(max-width:2560px) {
+
+    .cheddar {
+        height: 424px;
+    }
+
+    .caprese {
+        height: 424px;
+    }
+
+    .caballo {
+        height: 424px;
+        width: 600px;
+    }
+
+    .napo {
+        height: 454px;
+    }
+}
+
+@media(max-width:1400px) {
+    .cheddar {
+        height: 454px;
+    }
+}
+
+@media(max-width:1024px) {
+    .cheddar {
+        height: 452px;
+    }
+
+    .caprese {
+        height: 453px;
+    }
+
+    .caballo {
+        height: 453px;
+    }
+
+    .napo {
+        height: 453px;
+    }
+}
+
+@media(max-width:768px) {
+    .cheddar {
+        height: 505px;
+    }
+
+    .caprese {
+        height: 451px;
+    }
+
+    .caballo {
+        height: 475px;
+    }
+
+    .napo {
+        height: 481px;
+    }
+}
+
+@media(max-width:375px) {
+    .cheddar {
+        height: 340px;
+    }
+
+    .caprese {
+        height: 340px;
+    }
+
+    .caballo {
+        height: 340px;
+    }
+
+    .napo {
+        height: 340px;
+    }
+}

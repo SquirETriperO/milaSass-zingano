@@ -1,0 +1,17 @@
+// MAPS
+
+$ofertasResaltados: (
+somos: $color-contactos,
+mila: rgb(255, 238, 143),
+ambiente: $color-secundario,
+);
+
+@each $frases, $color in $ofertasResaltados {
+    .#{$frases}{
+        color: $color;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: cursive;
+    }
+}

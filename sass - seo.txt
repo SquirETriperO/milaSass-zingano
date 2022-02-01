@@ -1,0 +1,20 @@
+agregue el reseteo en el main del scss
+
+le agregue el extend al parrafo del index
+
+mixin al titulo de contactos
+
+puse maps en el parrafo de quienes somos
+
+achique las imagenes de la sección de productos y del carrusel
+
+agregue los alt de las imagenes
+
+puse los keywords, description y title de todas las paginas
+
+corregí el problema de la hamburguesa
+
+
+
+
+

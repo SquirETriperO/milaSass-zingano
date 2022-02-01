@@ -1,32 +1,32 @@
 /* CONTACTOS */
 
-.comunica{
-    padding: 4rem;
+.comunica {
+    @include fontStyle($color-contactos, 50px);
+
     &:hover {
-    font-weight: 700;
-    background-color: black;
-    border: 1px solid $color-primario;
-    color: $color-contactos;
-}
+        @include hover();
+    }
 }
 
 .form {
     text-align: center;
     text-align: center;
     font-size: 1.5rem;
+
     .form__label {
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    width: 60%;
-    margin: 0.5rem;
-    padding: 1rem;
-    border: none;
-    border-bottom: 1px solid #fff;
-    font-family: sans-serif;
-    
+        color: #fff;
+        text-align: center;
+        display: inline-block;
+        width: 60%;
+        margin: 0.5rem;
+        padding: 1rem;
+        border: none;
+        border-bottom: 1px solid #fff;
+        font-family: sans-serif;
+
+    }
 }
-}
+
 .form__label--submit {
     background-color: rgb(12, 12, 12);
     font-size: 1rem;
@@ -34,9 +34,10 @@
     border-radius: 0.3rem;
     font-weight: 600;
     cursor: pointer;
+
     &:hover {
-    background-color: #00385c;
-}
+        background-color: #00385c;
+    }
 }
 
 
@@ -49,7 +50,8 @@
     outline: none;
 }
 
-
-
-
-
+@media(max-width:375px) {
+    .comunica {
+        font-size: 2rem;
+    }
+}

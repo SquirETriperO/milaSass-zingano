@@ -2,15 +2,12 @@
 
 main {
     padding: 4rem;
+
     .logo {
-    width: 800px;
+        width: 800px;
+    }
+
+    p {
+        @extend %estilosParrafo;
+    }
 }
-p {
-    color: $color-primario;
-    padding: 4rem;
-}
-}
-
-
-
-

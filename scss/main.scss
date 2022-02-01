@@ -1,8 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(12, 12, 12);
 }
 // variables
 @import "./variables/colores";
+@import "./variables/extend";
+@import "./variables/mixin";
+@import "./variables/maps";
 
 
 // particiones
