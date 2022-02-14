@@ -1,7 +1,7 @@
 /* CONTACTOS */
 
 .comunica {
-    @include fontStyle($color-contactos, 50px);
+    @include fontStyle($color-contactos, 30px);
 
     &:hover {
         @include hover();
@@ -50,8 +50,8 @@
     outline: none;
 }
 
-@media(max-width:375px) {
-    .comunica {
-        font-size: 2rem;
-    }
-}
+// @media(max-width:375px) {
+//     .comunica {
+//         font-size: 2rem;
+//     }
+// }

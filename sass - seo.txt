@@ -14,6 +14,11 @@ puse los keywords, description y title de todas las paginas
 
 corregí el problema de la hamburguesa
 
+agregue el scss de MQ
+
+borre el scss del viejo css
+
+agregue el jpg del presupuesto
 
 
 

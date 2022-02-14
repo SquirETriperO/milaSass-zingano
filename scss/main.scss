@@ -12,6 +12,7 @@ body {
 @import "./variables/extend";
 @import "./variables/mixin";
 @import "./variables/maps";
+@import "./variables/mediaquery";
 
 
 // particiones
@@ -22,10 +23,4 @@ body {
 @import "./secciones/productos";
 @import "./secciones/quienes";
 @import "./secciones/contactos";
-
-
-
-// cssviejo
-@import "./variables/cssviejo.scss";
-
 

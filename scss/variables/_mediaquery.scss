@@ -1,0 +1,245 @@
+// MQ DE PRODUCTOS
+
+@media(max-width:2560px) {
+
+    .cheddar {
+        height: 424px;
+    }
+
+    .caprese {
+        height: 424px;
+    }
+
+    .caballo {
+        height: 424px;
+        width: 600px;
+    }
+
+    .napo {
+        height: 454px;
+    }
+}
+
+@media(max-width:1440px) {
+    .cheddar {
+        height: 454px;
+    }
+}
+
+@media(max-width:1024px) {
+    .cheddar {
+        height: 452px;
+    }
+
+    .caprese {
+        height: 453px;
+    }
+
+    .caballo {
+        height: 453px;
+    }
+
+    .napo {
+        height: 453px;
+    }
+}
+
+@media(max-width:768px) {
+    .cheddar {
+        height: 505px;
+    }
+
+    .caprese {
+        height: 451px;
+    }
+
+    .caballo {
+        height: 475px;
+    }
+
+    .napo {
+        height: 481px;
+    }
+}
+
+@media(max-width:375px) {
+    .cheddar {
+        height: 340px;
+    }
+
+    .caprese {
+        height: 340px;
+    }
+
+    .caballo {
+        height: 340px;
+    }
+
+    .napo {
+        height: 340px;
+    }
+}
+
+// MQ QUIENES SOMOS
+
+@media(max-width:2560px) {
+    .imgPunta {
+        width: 1075px;
+        height: 775px;
+        transform: translateX(110px);
+    }
+
+    .imgEnse {
+        width: 1075px;
+        height: 775px;
+        transform: translateX(110px);
+    }
+
+    .imgLp {
+        width: 1075px;
+        height: 775px;
+        transform: translateX(110px);
+    }
+}
+
+@media(max-width:1400px) {
+    .imgPunta {
+        width: 925px;
+        height: 650px;
+        transform: translateX(95px);
+    }
+
+    .imgEnse {
+        width: 925px;
+        height: 650px;
+        transform: translateX(95px);
+    }
+
+    .imgLp {
+        width: 925px;
+        height: 650px;
+        transform: translateX(95px);
+    }
+}
+
+
+@media(max-width:1024px) {
+    .imgPunta {
+        width: 775px;
+        height: 500px;
+        transform: translateX(80px);
+    }
+
+    .imgEnse {
+        width: 775px;
+        height: 500px;
+        transform: translateX(80px);
+    }
+
+    .imgLp {
+        width: 775px;
+        height: 500px;
+        transform: translateX(80px);
+    }
+
+    .punta {
+        transform: translateX(-5px);
+    }
+}
+
+@media(max-width:768px) {
+    .imgPunta {
+        width: 565px;
+        // height: 350px;
+        transform: translateX(65px);
+    }
+
+    .imgEnse {
+        width: 565px;
+        // height: 350px;
+        transform: translateX(65px);
+    }
+
+    .imgLp {
+        width: 565px;
+        // height: 350px;
+        transform: translateX(65px);
+    }
+
+    .punta {
+        transform: translateX(-5px);
+    }
+}
+
+@media(max-width:425px) {
+    .imgPunta {
+        width: 308px;
+        height: 155px;
+        transform: translateX(35px);
+    }
+
+    .imgEnse {
+        width: 308px;
+        height: 155px;
+        transform: translateX(35px);
+    }
+
+    .imgLp {
+        width: 308px;
+        height: 155px;
+        transform: translateX(35px);
+    }
+}
+
+@media(max-width:375px) {
+    .imgPunta {
+        width: 256px;
+        height: 155px;
+        transform: translateX(35px);
+    }
+
+    .imgEnse {
+        width: 256px;
+        height: 155px;
+        transform: translateX(35px);
+    }
+
+    .imgLp {
+        width: 256px;
+        height: 155px;
+        transform: translateX(35px);
+    }
+}
+
+@media(max-width:320px) {
+    .imgPunta {
+        width: 256px;
+        height: 155px;
+        transform: translateX(8px);
+    }
+
+    .imgEnse {
+        width: 256px;
+        height: 155px;
+        transform: translateX(8px);
+    }
+
+    .imgLp {
+        width: 256px;
+        height: 155px;
+        transform: translateX(8px);
+    }
+}
+
+// MQ CONTACTOS
+@media(max-width:425px) {
+    .comunica {
+        font-size: 2.5rem;
+    }
+}
+
+@media(max-width:375px) {
+    .comunica {
+        font-size: 1rem;
+    }
+}
